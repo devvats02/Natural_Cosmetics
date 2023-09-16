@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+}
+.nav{
+    width: 35vw;
+    height: 10vh;
+    margin-top: 30px;
+    display: flex;
+}
+.logo{
+    width: 250px;
+    height: 120px;
+    margin-left: 65px;
+}
+.logo img{
+    margin-top: 20px;
+}
+.list{
+    display: flex;
+}
+.list1{
+    margin-left: 11px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: fantasy;
+    list-style: none;
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+}
+.list1 a:hover{
+    color: red;
+}
+.a{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+}
+.a a{
+    margin-top: 400px;
+    margin-left: 120px;
+    color: white;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.b{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#id1{
+    width: 200px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 98px;
+}
+#id1 h1{
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 12px;
+    font-family:  'Quicksand', sans-serif;
+}
+#id2{
+    width: 700px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 24px;
+}
+#id2 p{
+   font-size: 20px;
+   margin-top: 55px;
+   line-height: 1.5;
+   color: grey;
+   font-family: fantasy;
+}
+.c{
+    width: 100vw;
+    height: 90vh;
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+}
+.d{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    background-color: white;
+}
+#id3{
+    width: 300px;
+    height: 200px;
+    margin-left: 196px;
+    margin-top: 171px;
+}
+#id3 h1{
+    font-size: 50px;
+    line-height: 1.8;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 100;
+}
+#id4{
+    width: 650px;
+    height: 127vh;
+    margin-top: 70px;
+    margin-left: 190px;
+}
+#id4 p{
+    font-family: fantasy;
+    color: grey;
+    line-height: 1.2;
+    font-size: 20px;
+}
+.hr1{
+    color: grey;
+}
+.e{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    background-color: white;
+}
+#id5{
+    width: 600px;
+    height: 100px;
+    margin-top: 70px;
+}
+#id5 h1{
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 100;
+}
+#id6{
+    width: 680px;
+    height: 100vh;
+    margin-top: 55px;
+    margin-left: 65px;
+}
+#id6 p{
+    font-size: 20px;
+    color: grey;
+    font-family: fantasy;
+    line-height: 1.8;
+}
+.f{
+    width: 100vw;
+    height: 133vh;
+    display: flex;
+    background-color: white;
+}
+#id7{
+    width: 630px;
+    height: 800px;
+    margin-left: 25px;
+}
+#id8{
+    width: 630px;
+    height: 800px;
+    margin-left: 55px;
+}
+.g{
+    width: 100vw;
+    height: 70vh;
+    display: inline-block;
+    background-color: white;
+}
+.para1{
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 70px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+.para2{
+    margin-left: 490px;
+    margin-top: 3px;
+    font-size: 40px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+.para3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 620px;
+}
+.h{
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    background-color: white;
+}
+#formcontrol{
+    margin-top: 130px;
+    margin-left: 370px;
+}
+#name{
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 230px;
+    height: 50px;
+}
+#email{
+    padding-left: 12px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    width: 230px;
+    height: 50px;
+}
+#btn1{
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: fantasy;
+    border: 3px solid black;
+    width: 120px;
+    height: 55px;
+}
+#btn1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.75s;
+}
+.para4{
+    margin-left: 500px;
+    margin-top: 12px;
+    color: grey;
+    font-family: sans-serif;
+}
+.para4 strong{
+    color: black;
+}
+#id9{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.btn1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-left: 12px;
+}
+#id10{
+    width: 900px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 305px;
+}
+.list2{
+    list-style: none;
+    font-family: sans-serif;
+    margin-left: 12px;
+}
+#id10 ul{
+    display: flex;
+}
+#id11{
+    width: 400px;
+    height: 40px;
+    margin-top: 69px;
+    margin-left: 516px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: grey;
+}
